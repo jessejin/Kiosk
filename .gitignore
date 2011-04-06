@@ -1,0 +1,8 @@
+bin
+gen
+*~
+*.apk
+*.jar
+*.bak
+*.swp
+*.tmp
