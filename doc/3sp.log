@@ -1,0 +1,1082 @@
+This is LuaTeX, Version beta-0.60.2-2010071217 (TeX Live 2010) (rev 3736)  (format=lualatex 2011.4.5)  7 APR 2011 16:00
+ restricted \write18 enabled.
+**3sp.tex
+(./3sp.tex
+LaTeX2e <2009/09/24>
+LuaTeX adaptation of babel <v3.8l-luatex-1.4> and hyphenation patterns for engl
+ish, dumylang, nohyphenation, loaded.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2011/02/19 v3.08a KOMA-Script document class (article)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2011/02/19 v3.08a KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2011/02/19 v3.08a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2011/02/11 v3.08a KOMA-Script package (loading files)
+
+Package scrlfile, 2011/02/11 v3.08a KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/local/texlive/2010/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2010/10/01 v3.07a KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 115.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 116.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 117.
+Package scrartcl Info: You've used obsolete option `12pt'.
+(scrartcl)             \KOMAExecuteOptions{fontsize=12pt} will be
+(scrartcl)             used instead.
+(scrartcl)             You may simply replace `12pt'
+(scrartcl)             by `fontsize=12pt'.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 1226.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2011/02/19 v3.08a KOMA-Script font size class option (12p
+t)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2011/02/19 v3.08a KOMA-Script package (type area)
+
+Package typearea, 2011/02/19 v3.08a KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1136.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count86
+\c@table=\count87
+\bibindent=\dimen102
+) (/usr/local/texlive/2010/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/babel/ngermanb.ldf
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@naustrian = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 92.
+luatex-hyphen: loading patterns and exceptions for: ngerman (\language29)
+luatex-hyphen: info: no hyphenation exceptions for this language))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/01/28 v0.05d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
+
+(/usr/local/texlive/2010/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
+\pdftexcmds@toks=\toks15
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen106
+\WF@size=\dimen107
+\c@WF@wrappedlines=\count90
+\WF@box=\box27
+\WF@everypar=\toks16
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip47
+\f@ncyO@elh=\skip48
+\f@ncyO@erh=\skip49
+\f@ncyO@olh=\skip50
+\f@ncyO@orh=\skip51
+\f@ncyO@elf=\skip52
+\f@ncyO@erf=\skip53
+\f@ncyO@olf=\skip54
+\f@ncyO@orf=\skip55
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2011/02/01 v1.2g Refers to last page's name (HMM; JPG)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen108
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen109
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks18
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks19
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks20
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+Package: unicode-math 2011/01/29 v0.5d Unicode maths in XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/expl3.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3names.sty
+Package: l3names 2011/01/08 v2122 L3 Experimental Naming Scheme for TeX Primiti
+ves
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/luatex.sty
+Package: luatex 2010/03/09 v0.4 LuaTeX basic definition package (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count103
+)
+\LuT@AllocAttribute=\count277
+\LuT@AllocCatcodeTable=\count278
+\CatcodeTableStack=\count279
+\CatcodeTableIniTeX=\catcodetable1
+\CatcodeTableString=\catcodetable3
+\CatcodeTableOther=\catcodetable5
+\CatcodeTableLaTeX=\catcodetable7
+))
+Package: expl3 2011/02/17 v2156 L3 Experimental code bundle wrapper
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3basics.sty
+Package: l3basics 2011/02/26 v2158 L3 Experimental basic definitions
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3expan.sty
+Package: l3expan 2010/09/20 v2037 L3 Experimental Argument Expansion module
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3tl.sty
+Package: l3tl 2011/03/07 v2184 L3 Experimental Token Lists
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3int.sty
+Package: l3int 2011/03/06 v2178 L3 Experimental Integer module
+\l_tmpa_int=\count280
+\l_tmpb_int=\count281
+\l_tmpc_int=\count282
+\g_tmpa_int=\count283
+\g_tmpb_int=\count284
+\c_max_int=\count285
+\g_tl_inline_level_int=\count286
+\g_prg_inline_level_int=\count287
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3quark.sty
+Package: l3quark 2011/03/03 v2172 L3 Experimental Quark Commands
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3seq.sty
+Package: l3seq 2010/03/29 v1879 L3 Experimental sequences and stacks
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3toks.sty
+Package: l3toks 2010/09/20 v2037 L3 Experimental Token Registers
+\l_tmpb_toks=\toks22
+\l_tmpc_toks=\toks23
+\g_tmpa_toks=\toks24
+\g_tmpb_toks=\toks25
+\g_tmpc_toks=\toks26
+\c_empty_toks=\toks27
+\l_tl_replace_toks=\toks28
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3prg.sty
+Package: l3prg 2011/03/06 v2178 L3 Experimental control structures
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3clist.sty
+Package: l3clist 2011/03/06 v2178 L3 Experimental comma separated lists
+\g_clist_map_inline_int=\count288
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3token.sty
+Package: l3token 2011/02/16 v2151 L3 Experimental token investigation and manip
+ulation
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3prop.sty
+Package: l3prop 2010/11/23 v2087 L3 Experimental Property Lists
+\g_prop_inline_level_int=\count289
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3msg.sty
+Package: l3msg 2010/10/02 v2052 L3 Experimental LaTeX Messages module
+\l_msg_redirect_classes_prop=\toks29
+\l_msg_redirect_names_prop=\toks30
+\l_msg_redirect_fatal_prop=\toks31
+\l_msg_redirect_error_prop=\toks32
+\l_msg_redirect_warning_prop=\toks33
+\l_msg_redirect_info_prop=\toks34
+\l_msg_redirect_log_prop=\toks35
+\l_msg_redirect_trace_prop=\toks36
+\l_msg_redirect_none_prop=\toks37
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3io.sty
+Package: l3io 2010/10/03 v2063 L3 Experimental i/o module
+\g_iow_streams_prop=\toks38
+\g_ior_streams_prop=\toks39
+\l_iow_stream_int=\count290
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3skip.sty
+Package: l3skip 2011/02/15 v2149 L3 Experimental skip registers
+\l_tmpa_skip=\skip256
+\l_tmpb_skip=\skip257
+\l_tmpc_skip=\skip258
+\g_tmpa_skip=\skip259
+\g_tmpb_skip=\skip260
+\l_tmpa_dim=\dimen256
+\l_tmpb_dim=\dimen257
+\l_tmpc_dim=\dimen258
+\l_tmpd_dim=\dimen259
+\g_tmpa_dim=\dimen260
+\g_tmpb_dim=\dimen261
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3box.sty
+Package: l3box 2011/03/06 v2178 L3 Experimental Box module
+\l_tmpb_box=\box256
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3keyval.sty
+Package: l3keyval 2010/04/11 v1890 L3 Experimental keyval processing
+\l_KV_level_int=\count291
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3keys.sty
+Package: l3keys 2010/11/11 v2082 L3 Experimental key-value support
+\l_keys_choice_int=\count292
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3precom.sty
+Package: l3precom 2010/02/09 v1793 L3 Experimental precompilation module
+\g_gen_sym_int=\count293
+\g_ggen_sym_int=\count294
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3xref.sty
+Package: l3xref 2011/02/16 v2151 L3 Experimental cross referencing
+\g_xref_all_curr_immediate_fields_prop=\toks40
+\g_xref_all_curr_deferred_fields_prop=\toks41
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3file.sty
+Package: l3file 2010/03/21 v1853 L3 Experimental file loading
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3fp.sty
+Package: l3fp 2011/03/06 v2178 L3 Experimental floating-point operations
+\c_one_million=\count295
+\c_one_hundred_million=\count296
+\c_five_hundred_million=\count297
+\c_one_thousand_million=\count298
+\c_fp_pi_by_four_decimal_int=\count299
+\c_fp_pi_by_four_extended_int=\count300
+\c_fp_pi_decimal_int=\count301
+\c_fp_pi_extended_int=\count302
+\c_fp_two_pi_decimal_int=\count303
+\c_fp_two_pi_extended_int=\count304
+\l_fp_count_int=\count305
+\l_fp_div_offset_int=\count306
+\l_fp_exp_integer_int=\count307
+\l_fp_exp_decimal_int=\count308
+\l_fp_exp_extended_int=\count309
+\l_fp_exp_exponent_int=\count310
+\l_fp_input_a_sign_int=\count311
+\l_fp_input_a_integer_int=\count312
+\l_fp_input_a_decimal_int=\count313
+\l_fp_input_a_exponent_int=\count314
+\l_fp_input_b_sign_int=\count315
+\l_fp_input_b_integer_int=\count316
+\l_fp_input_b_decimal_int=\count317
+\l_fp_input_b_exponent_int=\count318
+\l_fp_input_a_extended_int=\count319
+\l_fp_input_b_extended_int=\count320
+\l_fp_mul_a_i_int=\count321
+\l_fp_mul_a_ii_int=\count322
+\l_fp_mul_a_iii_int=\count323
+\l_fp_mul_a_iv_int=\count324
+\l_fp_mul_a_v_int=\count325
+\l_fp_mul_a_vi_int=\count326
+\l_fp_mul_b_i_int=\count327
+\l_fp_mul_b_ii_int=\count328
+\l_fp_mul_b_iii_int=\count329
+\l_fp_mul_b_iv_int=\count330
+\l_fp_mul_b_v_int=\count331
+\l_fp_mul_b_vi_int=\count332
+\l_fp_mul_output_int=\count333
+\l_fp_output_sign_int=\count334
+\l_fp_output_integer_int=\count335
+\l_fp_output_decimal_int=\count336
+\l_fp_output_exponent_int=\count337
+\l_fp_output_extended_int=\count338
+\l_fp_round_position_int=\count339
+\l_fp_round_target_int=\count340
+\l_fp_split_sign_int=\count341
+\l_fp_tmp_int=\count342
+\l_fp_trig_octant_int=\count343
+\l_fp_trig_sign_int=\count344
+\l_fp_trig_decimal_int=\count345
+\l_fp_trig_extended_int=\count346
+\l_fp_tmp_dim=\dimen262
+\l_fp_tmp_skip=\skip261
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3luatex.sty
+Package: l3luatex 2010/07/18 v1985 L3 Experimental LuaTeX functions
+\g_cctab_allocate_int=\count347
+\g_cctab_stack_int=\count348
+\c_code_cctab=\catcodetable9
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/expl3/l3font.sty
+Package: l3font 2011/03/03 v2175 L3 Experimental Font Loading
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count349
+\calc@Bcount=\count350
+\calc@Adimen=\dimen263
+\calc@Bdimen=\dimen264
+\calc@Askip=\skip262
+\calc@Bskip=\skip263
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count351
+\calc@Cskip=\skip264
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/xpackages/xbase/xparse.sty
+Package: xparse 2011/01/23 v2136 Generic document command parser
+\c_xparse_shorthands_prop=\toks42
+\l_xparse_m_args_int=\count352
+\l_xparse_mandatory_args_int=\count353
+\l_xparse_processor_int=\count354
+\l_xparse_total_args_int=\count355
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/xpackages/xtras/l3keys2e.sty
+Package: l3keys2e 2010/10/13 v2076 Parsing LaTeX3 keyvals as LaTeX2e package op
+tions
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2011/02/26 v2.1f Advanced font selection for XeLaTeX/LuaLaTeX
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/kastrup/binhex.tex)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+Package: luaotfload 2011/02/16 v1.24 OpenType layout system
+
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2010/10/06 v0.3 Module utilities for LuaTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/luatexbase-compat.sty
+Package: luatexbase-compat 2010/10/10 v0.3 Compatibility tools for LuaTeX
+)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/luatexbase-loader.sty
+Package: luatexbase-loader 2010/10/10 v0.3 Lua module loader for LuaTeX
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/luatexbase.loader.lua
+))
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/luatexbase-regs.sty
+Package: luatexbase-regs 2010/10/10 v0.3 Registers allocation for LuaTeX
+)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/luatexbase-attr.sty
+Package: luatexbase-attr 2010/10/10 v0.3 Attributes allocation for LuaTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/attr.lua))
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
+Package: luatexbase-cctb 2010/10/10 v0.3 Catcodetable allocation for LuaTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/cctb.lua)
+\lltxb@catcodetable@alloc=\count356
+\CatcodeTableIniTeX=\luatexcatcodetable1
+\CatcodeTableString=\luatexcatcodetable2
+\CatcodeTableOther=\luatexcatcodetable3
+\CatcodeTableLaTeX=\luatexcatcodetable4
+\CatcodeTableLaTeXAtLetter=\luatexcatcodetable5
+\CatcodeTableExpl=\luatexcatcodetable6
+)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/luatexbase-mcb.sty
+Package: luatexbase-mcb 2010/10/10 v0.3 Callback management for LuaTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/luatexbase-modutils.s
+ty
+Package: luatexbase-modutils 2010/10/10 v0.3 Module utilities for LuaTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/modutils.lua))
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luatexbase/mcb.lua)
+Lua module: luatexbase-mcb 2010/05/12 0.2 register several functions in a callb
+ack
+))
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs.lua)
+Lua module: lualibs 2011/01/20 0.96 Lua additional functions.
+
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-string.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-lpeg.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-boolean.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-number.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-math.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-table.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-aux.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-io.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-os.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-file.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-md5.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-dir.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-unicode.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-utils.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-dimen.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-url.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/lualibs/lualibs-set.lua)
+(/usr/local/texlive/2010/texmf-dist/tex/luatex/luaotfload/luaotfload.lua)
+Lua module: luaotfload 2011/02/16 1.24 OpenType layout system.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-luat-dum.lua.(using cache: /Users/doommaster/Library/texlive/2010/texmf
+-var/luatex-cache/generic)
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-luat-ovr.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-data-con.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-ini.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-node-dum.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-node-inj.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-tfm.lua.
+luatexbase.attributes["otfl@state"] = 1
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-cid.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-ott.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-map.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-otf.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-otd.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-oti.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-otb.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-otn.lua.
+luatexbase.attributes["otfl@markbase"] = 2
+luatexbase.attributes["otfl@markmark"] = 3
+luatexbase.attributes["otfl@markdone"] = 4
+luatexbase.attributes["otfl@cursbase"] = 5
+luatexbase.attributes["otfl@curscurs"] = 6
+luatexbase.attributes["otfl@cursdone"] = 7
+luatexbase.attributes["otfl@kernpair"] = 8
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-ota.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-otc.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-def.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-xtx.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-dum.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-nms.lua.
+luaotfload: loading file /usr/local/texlive/2010/texmf-dist/tex/luatex/luaotflo
+ad/otfl-font-clr.lua.
+Module luatexbase-mcb info: creating 'luaotfload.patch_font' type 4
+Module luatexbase-mcb info: inserting 'luaotfload.pre_linebreak_filter'
+(luatexbase-mcb)            at position 1 in 'pre_linebreak_filter'
+Module luatexbase-mcb info: inserting 'luaotfload.hpack_filter'
+(luatexbase-mcb)            at position 1 in 'hpack_filter'
+Module luatexbase-mcb info: resetting callback 'define_font'
+Module luatexbase-mcb info: inserting 'luaotfload.define_font'
+(luatexbase-mcb)            at position 1 in 'define_font'
+Module luatexbase-mcb info: inserting 'luaotfload.find_vf_file'
+(luatexbase-mcb)            at position 1 in 'find_vf_file'
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/fontspec/fontspec.lua)
+Lua module: fontspec 2009/12/04 2 Advanced font selection for LuaLaTeX.
+\l_fontspec_script_int=\count357
+\l_fontspec_language_int=\count358
+\l_fontspec_strnum_int=\count359
+Variant \tl_gset:cV already defined; not changing it on line 83
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
+\XKV@depth=\count360
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+Package: fontspec-patches 2011/02/26 v2.1f Advanced font selection for XeLaTeX/
+LuaLaTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: Redefining \textsubscript on input line 424.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 29.
+LaTeX Info: Redefining \- on input line 32.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/euenc/eu2enc.def
+File: eu2enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU2+lmr on input line 100.
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/euenc/eu2lmr.fd
+File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /Users/doommaster/Library/texlive/2010/texmf-var/luatex-cache/generi
+c/fonts/otf/temp-lmroman10-regular.lua))
+(/usr/local/texlive/2010/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2010/11/06 v0.96 provides access to latin accents and many o
+ther characters in Unicode lower plane
+)
+ LaTeX info: Defining document command \fontspec
+(LaTeX)  with arg. spec. 'O{}m' on line 335.
+
+ LaTeX info: Defining document command \setmainfont
+(LaTeX)  with arg. spec. 'O{}m' on line 339.
+
+ LaTeX info: Defining document command \setsansfont
+(LaTeX)  with arg. spec. 'O{}m' on line 343.
+
+ LaTeX info: Defining document command \setmonofont
+(LaTeX)  with arg. spec. 'O{}m' on line 347.
+
+ LaTeX info: Defining document command \setmathrm
+(LaTeX)  with arg. spec. 'O{}m' on line 351.
+
+ LaTeX info: Defining document command \setboldmathrm
+(LaTeX)  with arg. spec. 'O{}m' on line 354.
+
+ LaTeX info: Defining document command \setmathsf
+(LaTeX)  with arg. spec. 'O{}m' on line 357.
+
+ LaTeX info: Defining document command \setmathtt
+(LaTeX)  with arg. spec. 'O{}m' on line 360.
+
+ LaTeX info: Defining document command \newfontfamily
+(LaTeX)  with arg. spec. 'mO{}m' on line 377.
+
+ LaTeX info: Defining document command \newfontface
+(LaTeX)  with arg. spec. 'mO{}m' on line 380.
+
+ LaTeX info: Defining document command \defaultfontfeatures
+(LaTeX)  with arg. spec. 'm' on line 383.
+
+ LaTeX info: Defining document command \addfontfeatures
+(LaTeX)  with arg. spec. 'm' on line 400.
+
+ LaTeX info: Defining document command \newfontfeature
+(LaTeX)  with arg. spec. 'mm' on line 407.
+
+ LaTeX info: Defining document command \newAATfeature
+(LaTeX)  with arg. spec. 'mmmm' on line 416.
+
+ LaTeX info: Defining document command \newICUfeature
+(LaTeX)  with arg. spec. 'mmm' on line 425.
+
+ LaTeX info: Defining document command \aliasfontfeature
+(LaTeX)  with arg. spec. 'mm' on line 427.
+
+ LaTeX info: Defining document command \aliasfontfeatureoption
+(LaTeX)  with arg. spec. 'mmm' on line 430.
+
+ LaTeX info: Defining document command \newfontscript
+(LaTeX)  with arg. spec. 'mm' on line 435.
+
+ LaTeX info: Defining document command \newfontlanguage
+(LaTeX)  with arg. spec. 'mm' on line 457.
+
+ LaTeX info: Defining document command \DeclareFontsExtensions
+(LaTeX)  with arg. spec. 'm' on line 474.
+
+\c@fontspec_tmp_int=\count361
+LaTeX Info: Redefining \itshape on input line 2105.
+LaTeX Info: Redefining \slshape on input line 2109.
+LaTeX Info: Redefining \scshape on input line 2113.
+LaTeX Info: Redefining \upshape on input line 2117.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/fontspec/fontspec.cfg))
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2010/04/28 v1.5 Catches the contents of a file (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/03/09 v0.5a Hooks for input files
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/filehook/filehook-scrlfile.sty
+Package: filehook-scrlfile 2011/01/03 v0.1 filehook patch for scrlfile package
+Package filehook Info: Package 'scrlfile' detected and compensated for on input
+ line 102.
+))
+Variant \tl_put_right:cx already defined; not changing it on line 36
+Variant \seq_if_in:NVTF already defined; not changing it on line 37
+\g_um_fam_int=\count362
+ LaTeX info: Defining document command \unimathsetup
+(LaTeX)  with arg. spec. 'm' on line 583.
+
+ LaTeX info: Defining document command \setmathfont
+(LaTeX)  with arg. spec. 'O{}m' on line 1022.
+
+ LaTeX info: Defining document command \resetmathfont
+(LaTeX)  with arg. spec. 'O{}m' on line 1031.
+
+ LaTeX info: Defining document command \addnolimits
+(LaTeX)  with arg. spec. 'm' on line 1148.
+
+ LaTeX info: Defining document command \removenolimits
+(LaTeX)  with arg. spec. 'm' on line 1151.
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/unicode-math/unicode-math-table.t
+ex)
+\g_um_primekern_muskip=\muskip11
+\l_um_primecount_int=\count363
+\g_um_supers_prop=\toks45
+\g_um_subs_prop=\toks46
+ unicode-math info: I'm going to patch macro \subarray.
+
+ unicode-math info: I'm going to patch macro \frac .
+
+ unicode-math info: I'm going to patch macro \@genfrac.
+
+ unicode-math info: I'm going to patch macro \plainroot@.
+
+ unicode-math info: I'm going to patch macro \r@@t.
+
+)
+LaTeX Font Info:    Redeclaring math version `normal' on input line 14.
+(load: /Users/doommaster/Library/texlive/2010/texmf-var/luatex-cache/generic/fo
+nts/otf/temp-asana-math.lua)
+fontspec: script 'math' exists in font 'Asana Math'
+\g_fontspec_family_Asana-Math.otf_int=\count364
+ fontspec info: Defining font family 'Asana-Math.otf(0)' for font 'Asana-Math.o
+tf' with options [Renderer=Basic,BoldFont={},ItalicFont={},Script=Math,SizeFeat
+ures={{Size=10-},{Size=7-10,Font=Asana-Math.otf,ScriptStyle},{Size=-7,Font=Asan
+a-Math.otf,ScriptScriptStyle}},].
+
+\g_fontspec_Asana-Math.otf(0)_prop=\toks47
+ fontspec info: Defining shape 'normal' with NFSS spec.:
+(fontspec)  <10->"file:Asana-Math.otf:mode=base;script=math;language=DFLT;"<7-1
+0>"file:Asana-Math.otf:mode=base;script=math;language=DFLT;+ssty=1;"<-7>"file:A
+sana-Math.otf:mode=base;script=math;language=DFLT;+ssty=2;"
+
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+fontspec: script 'math' exists in font 'Asana Math-2'
+\symum_allsym=\mathgroup4
+fontspec: script 'math' exists in font 'Asana Math'
+ fontspec info: Defining font family 'Asana-Math.otf(1)' for font 'Asana-Math.o
+tf' with options [Renderer=Basic,BoldFont={},ItalicFont={},Script=Math,SizeFeat
+ures={{Size=10-},{Size=7-10,Font=Asana-Math.otf,ScriptStyle},{Size=-7,Font=Asan
+a-Math.otf,ScriptScriptStyle}},,Scale=1.00001,FontAdjustment={\fontdimen 8\font
+ =475136sp\relax \fontdimen 9\font =393216sp\relax \fontdimen 10\font =32768sp\
+relax \fontdimen 11\font =465305.6sp\relax \fontdimen 12\font =327680sp\relax \
+fontdimen 13\font =236584.96sp\relax \fontdimen 14\font =236584.96sp\relax \fon
+tdimen 15\font =193986.56sp\relax \fontdimen 16\font =137625.6sp\relax \fontdim
+en 17\font =0pt\relax \fontdimen 18\font =150732.8sp\relax \fontdimen 19\font =
+145489.92sp\relax \fontdimen 20\font =0pt\relax \fontdimen 21\font =0pt\relax \
+fontdimen 22\font =177602.56sp\relax }].
+
+\g_fontspec_Asana-Math.otf(1)_prop=\toks48
+ fontspec info: Defining shape 'normal' with NFSS spec.:
+(fontspec)  <10->s*[1.00001]"file:Asana-Math.otf:mode=base;script=math;language
+=DFLT;"<7-10>s*[1.00001]"file:Asana-Math.otf:mode=base;script=math;language=DFL
+T;+ssty=1;"<-7>s*[1.00001]"file:Asana-Math.otf:mode=base;script=math;language=D
+FLT;+ssty=2;"
+(fontspec)  and font adjustment code:
+(fontspec)  \fontdimen 8\font =475136sp\relax \fontdimen 9\font =393216sp\relax
+ \fontdimen 10\font =32768sp\relax \fontdimen 11\font =465305.6sp\relax \fontdi
+men 12\font =327680sp\relax \fontdimen 13\font =236584.96sp\relax \fontdimen 14
+\font =236584.96sp\relax \fontdimen 15\font =193986.56sp\relax \fontdimen 16\fo
+nt =137625.6sp\relax \fontdimen 17\font =0pt\relax \fontdimen 18\font =150732.8
+sp\relax \fontdimen 19\font =145489.92sp\relax \fontdimen 20\font =0pt\relax \f
+ontdimen 21\font =0pt\relax \fontdimen 22\font =177602.56sp\relax 
+
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 14.
+LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 14.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> EU2/Asana-Math.otf(1)/m/n on input lin
+e 14.
+LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 14.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> EU2/Asana-Math.otf(1)/m/n on input lin
+e 14.
+fontspec: script 'math' exists in font 'Asana Math'
+ fontspec info: Defining font family 'Asana-Math.otf(2)' for font 'Asana-Math.o
+tf' with options [Renderer=Basic,BoldFont={},ItalicFont={},Script=Math,SizeFeat
+ures={{Size=10-},{Size=7-10,Font=Asana-Math.otf,ScriptStyle},{Size=-7,Font=Asan
+a-Math.otf,ScriptScriptStyle}},,Scale=0.99999,FontAdjustment={\fontdimen 8\font
+ =38666.24sp\relax \fontdimen 9\font =72744.96sp\relax \fontdimen 10\font =1094
+45.12sp\relax \fontdimen 11\font =131072sp\relax \fontdimen 12\font =393216sp\r
+elax \fontdimen 13\font =0pt\relax }].
+
+\g_fontspec_Asana-Math.otf(2)_prop=\toks49
+ fontspec info: Defining shape 'normal' with NFSS spec.:
+(fontspec)  <10->s*[0.99999]"file:Asana-Math.otf:mode=base;script=math;language
+=DFLT;"<7-10>s*[0.99999]"file:Asana-Math.otf:mode=base;script=math;language=DFL
+T;+ssty=1;"<-7>s*[0.99999]"file:Asana-Math.otf:mode=base;script=math;language=D
+FLT;+ssty=2;"
+(fontspec)  and font adjustment code:
+(fontspec)  \fontdimen 8\font =38666.24sp\relax \fontdimen 9\font =72744.96sp\r
+elax \fontdimen 10\font =109445.12sp\relax \fontdimen 11\font =131072sp\relax \
+fontdimen 12\font =393216sp\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 14.
+LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+4.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> EU2/Asana-Math.otf(2)/m/n on input lin
+e 14.
+LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 14.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> EU2/Asana-Math.otf(2)/m/n on input lin
+e 14.
+ (./3sp.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /Users/doommaster/Library/texlive/2010/texmf-var/luatex-cache/generi
+c/fonts/otf/temp-lmroman12-regular.lua) (/usr/local/texlive/2010/texmf-dist/tex
+/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count365
+\scratchdimen=\dimen265
+\scratchbox=\box257
+\nofMPsegments=\count366
+\nofMParguments=\count367
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen266
+\MPnumerator=\count369
+\everyMPtoPDFconversion=\toks51
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 436.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package lastpage Info: Please have a look at the pagesLTS package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pagesLTS/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pagesLTS.tds.zip
+(lastpage)             ! on input line 26.
+LaTeX Font Info:    Try loading font information for EU2+lmss on input line 28.
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/euenc/eu2lmss.fd
+File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /Users/doommaster/Library/texlive/2010/texmf-var/luatex-cache/generi
+c/fonts/otf/temp-lmsans12-regular.lua)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /Users/doommaster/Library/texlive/2010/texmf-var/luatex-cache/generi
+c/fonts/otf/temp-lmsans10-bold.lua)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /Users/doommaster/Library/texlive/2010/texmf-var/luatex-cache/generi
+c/fonts/otf/temp-lmroman17-regular.lua)
+LaTeX Font Info:    Font shape `EU2/Asana-Math.otf(1)/m/n' will be
+(Font)              scaled to size 17.28026pt on input line 28.
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+LaTeX Font Info:    Font shape `EU2/Asana-Math.otf(1)/m/n' will be
+(Font)              scaled to size 12.00018pt on input line 28.
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+LaTeX Font Info:    Font shape `EU2/Asana-Math.otf(1)/m/n' will be
+(Font)              scaled to size 10.00015pt on input line 28.
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+LaTeX Font Info:    Font shape `EU2/Asana-Math.otf(2)/m/n' will be
+(Font)              scaled to size 17.27972pt on input line 28.
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+LaTeX Font Info:    Font shape `EU2/Asana-Math.otf(2)/m/n' will be
+(Font)              scaled to size 11.99982pt on input line 28.
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+LaTeX Font Info:    Font shape `EU2/Asana-Math.otf(2)/m/n' will be
+(Font)              scaled to size 9.99985pt on input line 28.
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+
+LaTeX Warning: No \author given.
+
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+LaTeX Font Info:    Font shape `EU2/Asana-Math.otf(1)/m/n' will be
+(Font)              scaled to size 8.00012pt on input line 29.
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+LaTeX Font Info:    Font shape `EU2/Asana-Math.otf(1)/m/n' will be
+(Font)              scaled to size 6.00009pt on input line 29.
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+LaTeX Font Info:    Font shape `EU2/Asana-Math.otf(2)/m/n' will be
+(Font)              scaled to size 7.99988pt on input line 29.
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+LaTeX Font Info:    Font shape `EU2/Asana-Math.otf(2)/m/n' will be
+(Font)              scaled to size 5.99991pt on input line 29.
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+luaotfload | load font: auto-selecting default features for script: dflt (was m
+ath)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /Users/doommaster/Library/texlive/2010/texmf-var/luatex-cache/generi
+c/fonts/otf/temp-lmroman12-bold.lua)
+Overfull \hbox (27.26134pt too wide) in paragraph at lines 29--34
+[][] 
+ []
+
+AED: lastpage setting LastPage 
+[1
+
+
+{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./3sp.aux) )
+
+Here is how much of LuaTeX's memory you used:
+ 19260 strings out of 257158
+ 125036,552014 words of node,token memory allocated
+ 372 words of node memory still in use:
+   5 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 5 attribute, 49 glue_spec, 5 attri
+bute_list, 2 write nodes
+   avail lists: 1:48,2:4383,3:37,4:450,5:88,6:1402,7:71,8:15,9:818,10:854,11:40
+2,12:175
+ 22331 multiletter control sequences out of 65536+200000
+ 50 fonts using 10178319 bytes
+ 60i,7n,53p,787b,258s stack positions out of 5000i,500n,6000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.
+otf></usr/local/texlive/2010/texmf-dist/fonts/opentype/public/lm/lmroman12-bold
+.otf></usr/local/texlive/2010/texmf-dist/fonts/opentype/public/lm/lmroman17-reg
+ular.otf></usr/local/texlive/2010/texmf-dist/fonts/opentype/public/lm/lmsans10-
+bold.otf>
+Output written on 3sp.pdf (1 page, 19075 bytes).
+PDF statistics: 32 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
