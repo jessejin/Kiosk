@@ -3,6 +3,9 @@ gen
 *~
 .DS_Store
 *.apk
+*.aux
+*.log
+*.synctex.gz
 *.jar
 *.bak
 *.swp
