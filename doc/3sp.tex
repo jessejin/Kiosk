@@ -28,15 +28,34 @@
 \section*{Das Team}
 \begin{tabular}{ l l l }
   \textbf{Christopher Loessel} & \textbf{Steffen Arntz} & \textbf{Daniel} \smallskip \\ 
-  JID: cloessl@gmail.com & JID: winrootkit@googlemail.com & ICQ/TEL \\
+  JID: hashier@x-berg.de & JID: winrootkit@googlemail.com & ICQ/TEL: \\
+  Mehl: c.loessl@tu-bs.de & Mehl: winrootkit@googlemail.com & Mehl:  \\
   Leitung & Konzepte/Documentation & Backend/Verification/Testing \\
 \end{tabular}
 
 \section*{Die Idee}
-Smartphones und Tablet sind eine außergewöhnliche Möglichkeit multimediale Inhalte an Benutzer zu vermuitteln, jedoch ist ihr Funktionsumfang und die Komplexität für viele Anwendungen weit mehr als Ausreichend. 
+Smartphones und Tablet sind eine außergewöhnliche Möglichkeit multimediale Inhalte an Benutzer zu vermitteln, jedoch ist ihr Funktionsumfang und die Komplexität für viele Anwendungen weit mehr als Ausreichend. 
 Wird ein Gerät nun für einen spezifischen Einsatzzweck/Ort genutzt, so kann dies hinderlich sein, da der Nutzer ggf. zu viel Einarbeitungszeit benötigt oder sogar Fehler in der Bedienung begehen kann. \\
-Als Lösung bietet es sich an den Zugriff gezielt auf bestimmte Funktionen und Anwendungen des Gerätes ein zu schränken. \\
+Als Lösung bietet es sich an den Zugriff gezielt auf bestimmte Funktionen und Anwendungen des Gerätes einzuschränken. \\
 Ein solches Gerät ließe sich mit sehr kurzer Einführung, ggf. duch ein einfaches Video, zum Beispiel auch von Besuchern einer Austellung oder eines Museeums nutzen. Außerdem ist die Nutzbarkeit auf eine Spezifisches Gebiet eingeschränkt wodurch der Reiz zum Diebstahl geschwächt wird. \\
 Wir schlagen die Entwicklung einer Applikation vor, die dem Benutzer eine vereinfachte und intuitive Oberfläche bietet und ihm einfachen Zugriff auf ausgewählte Anwendungen und Informationen ermöglicht, zudem soll er Zufgriff auf eine kurze Einführung in die Bedienung erhalten.
+
+\section*{Technische Umsetzung}
+Um dem Benutzer die möglichkeiten zu nehmen an nicht erlaubte Bedienelemente/Einstellungen zu kommen, wird eine neu implementation des Desktopmanager (Home Menu) angestrebt. In diesem Home menu ist eine eigene Implementierung des Launcher vorgesehen um die freigeschalteten Programme zu starten. z.\,B. Google-Maps oder Wapedia (eine Anwendung um Wikipedia auf Smartphones zu durchforsten).
+
+\section*{Anforderungen}
+Der Benutzer darf nicht aus der SandBox ausbrechen koennen und darf nur dort definierte Anwedungen starten koennen. \\
+Der root darf natuerlich aus dieser SandBox ausbrechen und dort das Android System normal benutzen.
+
+\subsection*{Optional}
+Ueber eine Konfiguration innerhalb der App kann der root aussuchen welche Anwendungen alles erlaubt sind und welche nicht. \\
+Default policy ist aus sicherheitsgruenden natuerlich ``alles was nicht erlaubt ist, ist verboten''.
+
+\section*{Milestones}
+
+
+\section*{Caveat}
+Wie es bei jedem System ist an das man Hardware zugriff hat, kann man es natuerlich nicht vor Manipulationen schuetzen die Hardwaremaessig durchgefuehrt werden. So ist es uns natuerlich nicht moeglich den Angreifer vor einem Hardware uebergriff z.\,B. durch flashen des Systemns zu verhindern.
+
 
 \end{document}
