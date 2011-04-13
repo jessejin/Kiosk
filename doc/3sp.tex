@@ -1,6 +1,7 @@
 \documentclass[12pt,a4paper,ngerman]{scrartcl}
 
-\usepackage{babel}
+\usepackage[ngerman]{babel}
+\usepackage[babel]{csquotes}
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
@@ -18,6 +19,9 @@
 \newcommand{\rojoin}{⟖}
 \newcommand{\fojoin}{⟗}
 
+\usepackage{xspace}
+\newcommand{\zB}{\mbox{z.\,B.}\xspace}
+
 
 \pagestyle{fancy}
 \cfoot{\thepage\ von \pageref{LastPage}}
@@ -28,7 +32,7 @@
 \section*{Das Team}
 \begin{tabular}{ l l l }
   \textbf{Christopher Loessel} & \textbf{Steffen Arntz} & \textbf{Daniel Fischer} \smallskip \\ 
-  JID: hashier@x-berg.de & JID: winrootkit@googlemail.com & ICQ: ? \\
+  JID: hashier@x-berg.de & JID: winrootkit@googlemail.com & ICQ: 162978399 \\
   eMail: c.loessl@tu-bs.de & eMail: winrootkit@googlemail.com & eMail: d.fischer@tu-bs.de  \\
   Controller & Concept/Documentation & Verification/Testing \\
 \end{tabular}
@@ -41,22 +45,22 @@ Ein solches Gerät ließe sich mit sehr kurzer Einführung, ggf. durch ein einfa
 Wir schlagen die Entwicklung einer Applikation vor, die dem Benutzer eine vereinfachte und intuitive Oberfläche bietet und ihm einfachen Zugriff auf ausgewählte Anwendungen und Informationen ermöglicht, zudem soll er Zugriff auf eine kurze Einführung in die Bedienung erhalten.
 
 \section*{Technische Umsetzung}
-Um dem Benutzer die Möglichkeiten zu nehmen an nicht erlaubte Bedienelemente/Einstellungen zu kommen, wird eine neu Implementation des Desktopmanager (Home-Menu) angestrebt. In diesem Home-Menu ist eine eigene Implementierung des Launcher vorgesehen um die freigeschalteten Programme zu starten. z.\,B. Google-Maps oder Wapedia (eine Anwendung um Wikipedia auf Smartphones zu durchforsten).
+Um dem Benutzer die Möglichkeiten zu nehmen an nicht erlaubte Bedienelemente/Einstellungen zu kommen, wird eine neu Implementation des Desktopmanager (Home-Menu) angestrebt. In diesem Home-Menu ist eine eigene Implementierung des Launcher vorgesehen um die freigeschalteten Programme zu starten. \zB Google-Maps oder Wapedia (eine Anwendung um Wikipedia auf Smartphones zu durchforsten).
 
 \section*{Anforderungen}
 Der Benutzer darf nicht aus der SandBox ausbrechen können und darf nur dort definierte Anwendungen starten können. \\
-Der Administrator darf natürlich aus dieser SandBox ausbrechen und das Android System normal benutzen und verwalten.
+Der Administrator darf natürlich aus dieser SandBox \enquote{ausbrechen} um das Android-System normal benutzen und verwalten zu können. \\
+Der Administrator kann über die Einstellungen die Activities/Intents auswählen die in der SandBox benutzt/gestartet werden dürfen.
 
 \subsection*{Optional}
-Über eine Konfiguration innerhalb der App kann der root aussuchen welche Anwendungen alles erlaubt sind und welche nicht. \\
-Ein Defaultbrowser mit eingeschränktem Internetzugang, z\.B. nur eine vorgegebene Domain. \\
-Default-Policy ist aus sicherheitsgründen natürlich ``alles was nicht erlaubt ist, ist verboten''.
+Ein Defaultbrowser mit eingeschränktem Internetzugang, \zB nur eine vorgegebene Domain. \\
+Default-Policy ist aus sicherheitsgründen natürlich \enquote{alles was nicht erlaubt ist, ist verboten}\footnote{Leider ist es scheinbar nicht möglich die Statuszeile mit Android 2.3 dauerhaft auszublenden}.
 
 \section*{Milestones}
 
 
 \section*{Caveat}
-Wie es bei jedem System ist an das man Hardware zugriff hat, kann man es natürlich nicht vor Manipulationen schützen die Hardwareseitig durchgeführt werden. So ist es uns nicht möglich den Angreifer vor einem Hardware übergriff z.\,B. durch Flashen des Systems zu verhindern, geeignete Plattformauswahl kann jedoch auch hier Sicherheit bieten.
+Wie es bei jedem System ist an das man Hardware zugriff hat, kann man es natürlich nicht vor Manipulationen schützen die Hardwareseitig durchgeführt werden. So ist es uns nicht möglich den Angreifer vor einem Hardware übergriff \zB durch Flashen des Systems zu verhindern, geeignete Plattformauswahl kann jedoch auch hier Sicherheit bieten.
 
 
 \end{document}
