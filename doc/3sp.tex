@@ -3,7 +3,7 @@
 \usepackage[ngerman]{babel}
 \usepackage[babel]{csquotes}
 \usepackage{graphicx}
-\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{wrapfig}
 \usepackage{fancyhdr}
@@ -11,8 +11,8 @@
 \usepackage{amsmath}
 
 % Unicode math fonts
-%\usepackage{unicode-math}
-%\setmathfont{Asana-Math.otf}
+\usepackage{unicode-math}
+\setmathfont{Asana-Math.otf}
 % \setmathfont{xits-math.otf}
 % \setmathfont{STIXGeneral}
 \newcommand{\lojoin}{⟕}
@@ -28,7 +28,8 @@
 \title{KioskLauncher: \\ Ein Kioskmodus für Android}
 \subtitle{Android Praktikum \\ Sommersemester 2011}
 \begin{document}
-\maketitle
+\maketitle 
+
 \section*{Das Team}
 \begin{tabular}{ l l l }
   \textbf{Christopher Loessel} & \textbf{Steffen Arntz} & \textbf{Daniel Fischer} \smallskip \\ 
@@ -51,16 +52,43 @@ Um dem Benutzer die Möglichkeiten zu nehmen an nicht erlaubte Bedienelemente/Ei
 Der Benutzer darf nicht aus der SandBox ausbrechen können und darf nur dort definierte Anwendungen starten können. \\
 Der Administrator darf natürlich aus dieser SandBox \enquote{ausbrechen} um das Android-System normal benutzen und verwalten zu können. \\
 Der Administrator kann über die Einstellungen die Activities/Intents auswählen die in der SandBox benutzt/gestartet werden dürfen.
-
 \subsection*{Optional}
 Ein Defaultbrowser mit eingeschränktem Internetzugang, \zB nur eine vorgegebene Domain. \\
 Default-Policy ist aus sicherheitsgründen natürlich \enquote{alles was nicht erlaubt ist, ist verboten}\footnote{Leider ist es scheinbar nicht möglich die Statuszeile mit Android 2.3 dauerhaft auszublenden}.
 
 \section*{Milestones}
-
+\begin{tabular}{ l l l }
+Androidprojekt anlegen und Bibliotheken Recherche & 04.04.11 & 18.04.11 \\
+Grundlagen und Ausführung evaluieren & 04.04.11 & 15.04.11 \\
+Klassen und Programmgerüst erstellen & 04.04.11 & 28.06.11 \\
+\textbf{Erstellung 3-SP} & \textbf{05.04.11} & \textbf{13.04.11} \\
+GUI Prototypentwurf Graphisch & 13.04.11 & 22.04.11 \\
+GUI Prototypentwurf XML & 22.04.11 & 02.05.11 \\
+Erste Funktionstests (Apps starten, als root anmelden) & 18.04.11 & 15.05.11 \\
+\textbf{Review 1} & \textbf{16.05.11} & \textbf{17.05.11} \\
+Konfiguration implementieren & 17.05.11 & 30.05.11 \\
+Einstellungsüberwachung implementieren (WLAN ein usw.) & 17.05.11 & 11.06.11 \\
+App, Funktionen \& GUI verfeinern & 17.05.11 & 18.06.11 \\
+Testenszenarios entwerfen und auswerten & 11.06.11 & 26.06.11 \\
+\textbf{Review 2} & \textbf{27.06.11} & \textbf{28.06.11} \\
+Abschlusspräsentation erstellen & 29.06.11 & 11.07.11 \\
+\textbf{Projektabschluss} & \textbf{13.07.11} \\
+\end{tabular}
 
 \section*{Caveat}
-Wie es bei jedem System ist an das man Hardware zugriff hat, kann man es natürlich nicht vor Manipulationen schützen die Hardwareseitig durchgeführt werden. So ist es uns nicht möglich den Angreifer vor einem Hardware übergriff \zB durch Flashen des Systems zu verhindern, geeignete Plattformauswahl kann jedoch auch hier Sicherheit bieten.
+Wie es bei jedem System ist an das man Hardware zugriff hat, kann man es natürlich nicht vor Manipulationen schützen die Hardwareseitig durchgeführt werden. So ist es uns nicht möglich den Angreifer vor einem Hardware übergriff \zB durch Flashen des Systems zu verhindern, geeignete Plattformauswahl kann jedoch auch hier Sicherheit bieten. Außerdem sind bestimmte UI-Gegebenheite die den Windowmanager betreffen nicht vollständig beeinflussbar.
+\\ \\
+\begin{center}
+\begin{tabular}{@{}l@{}}\hline
+Christopher Loessel
+\end{tabular} \hspace{1cm}
+\begin{tabular}{@{}l@{}}\hline
+Steffen Arntz
+\end{tabular} \hspace{1cm}
+\begin{tabular}{@{}l@{}}\hline
+Daniel Fischer
+\end{tabular} 
 
+\end{center}
 
 \end{document}
