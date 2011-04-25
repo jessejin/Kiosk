@@ -51,8 +51,16 @@ public class Configure extends Activity implements OnClickListener {
 	@Override
 	protected void onResume() {
 		super.onResume();
+
+		// getDefaultSharedPreferences is much better see:
+		// http://www.google.com/codesearch/p?hl=en#uX1GffpyOZk/core/java/android/preference/PreferenceManager.java&d=3
 		
+		// geht nicht, weil man sich dann um alles selber kuemmern muss und nicht das Framework nutzen kann
+//		mPrefs = getPreferences(MODE_PRIVATE);
+		
+
 //		mPrefs = getSharedPreferences("de.tubs.kiosk.android_preferences", MODE_PRIVATE);
+		// Dieses ist ein wrapper fier die Zeile drueber, also portabler
 		mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
 		
 		TextView name = (TextView) findViewById(R.id.textView1);
