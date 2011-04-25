@@ -2,4 +2,8 @@
 <resources>
     <string name="hello">Hello World, Kiosk!</string>
     <string name="app_name">Kiosk</string>
+    <string name="configure">Configure</string>
+    <string name="passwd">Password</string>
+    <string name="providePW">Please provide the root password</string>
+    <string name="ok">OK</string>
 </resources>
