@@ -2,4 +2,15 @@
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" android:title="Einstellungen">
     <EditTextPreference android:title="Password" android:key="passwd"></EditTextPreference>
+    
+    <EditTextPreference android:title="1" android:key="one"></EditTextPreference>
+    <EditTextPreference android:title="2" android:key="two"></EditTextPreference>
+    <EditTextPreference android:title="3" android:key="three"></EditTextPreference>
+    <EditTextPreference android:title="4" android:key="four"></EditTextPreference>
+    <EditTextPreference android:title="5" android:key="five"></EditTextPreference>
+    <EditTextPreference android:title="6" android:key="six"></EditTextPreference>
+    <EditTextPreference android:title="7" android:key="seven"></EditTextPreference>
+    <EditTextPreference android:title="8" android:key="eight"></EditTextPreference>
+    <EditTextPreference android:title="9" android:key="nine"></EditTextPreference>
+    
 </PreferenceScreen>

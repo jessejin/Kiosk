@@ -60,7 +60,7 @@ public class Configure extends Activity implements OnClickListener {
 		
 
 //		mPrefs = getSharedPreferences("de.tubs.kiosk.android_preferences", MODE_PRIVATE);
-		// Dieses ist ein wrapper fier die Zeile drueber, also portabler
+		// Dieses ist ein wrapper fuer die Zeile drueber, also portabler
 		mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
 		
 		TextView name = (TextView) findViewById(R.id.textView1);
