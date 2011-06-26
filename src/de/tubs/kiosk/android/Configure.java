@@ -40,9 +40,23 @@ public class Configure extends Activity implements OnClickListener {
 		String prefsPW = mPrefs.getString("passwd", "uppsala");
 		
 		if ( textUserPW.equals( prefsPW) ) {
-			startActivity(new Intent(this,Preferences.class));			
+			startActivityForResult(new Intent(this,Preferences.class), 1);
 		} else
 			Toast.makeText(this, "Wrong password", Toast.LENGTH_SHORT).show();
+	}
+
+	/* (non-Javadoc)
+	 * @see android.app.Activity#onActivityResult(int, int, android.content.Intent)
+	 */
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		// TODO Auto-generated method stub
+		super.onActivityResult(requestCode, resultCode, data);
+		
+		if ( requestCode == 1 && resultCode == 42) {
+			setResult( 42);
+			this.finish();
+		}
 	}
 
 	/* (non-Javadoc)

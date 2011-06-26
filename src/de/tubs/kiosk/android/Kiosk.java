@@ -53,7 +53,7 @@ public class Kiosk extends Activity implements OnClickListener {
 	    // Handle item selection
 	    switch (item.getItemId()) {
 	    case R.id.configure:
-	    	startActivity(new Intent(this,Configure.class));
+	    	startActivityForResult(new Intent(this,Configure.class), 1);
 	        return true;
 	    default:
 	        return super.onOptionsItemSelected(item);
@@ -187,5 +187,18 @@ public class Kiosk extends Activity implements OnClickListener {
 		super.onResume();
 		
 		mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+	}
+
+
+	/* (non-Javadoc)
+	 * @see android.app.Activity#onActivityResult(int, int, android.content.Intent)
+	 */
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		// TODO Auto-generated method stub
+		super.onActivityResult(requestCode, resultCode, data);
+		
+		if ( requestCode == 1 && resultCode == 42)
+			this.finish();
 	}
 }
