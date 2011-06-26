@@ -1,5 +1,7 @@
 package de.tubs.kiosk.android;
 
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.Menu;
@@ -36,6 +38,14 @@ public class Preferences extends PreferenceActivity {
 	    	setResult(42);
 	    	this.finish();
 	        return true;
+	    case R.id.androidSettings:
+	    	Intent start = null;
+	    	final PackageManager pm = getPackageManager();
+	    	if (pm == null)
+				return false;
+	    	start = pm.getLaunchIntentForPackage("com.android.settings");
+	    	startActivity(start);
+	    	return true;
 	    default:
 	        return super.onOptionsItemSelected(item);
 	    }

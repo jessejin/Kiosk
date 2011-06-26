@@ -71,7 +71,6 @@ public class Configure extends Activity implements OnClickListener {
 		
 		// geht nicht, weil man sich dann um alles selber kuemmern muss und nicht das Framework nutzen kann
 //		mPrefs = getPreferences(MODE_PRIVATE);
-		
 
 //		mPrefs = getSharedPreferences("de.tubs.kiosk.android_preferences", MODE_PRIVATE);
 		// Dieses ist ein wrapper fuer die Zeile drueber, also portabler
