@@ -12,20 +12,20 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Configure extends Activity implements OnClickListener {
-	
-	SharedPreferences mPrefs = null;
-	Button mBtnOK = null;
-	TextView mtextPassword = null;
-	
+
+	private SharedPreferences mPrefs = null;
+	private Button mBtnOK = null;
+	private TextView mtextPassword = null;
+
 	/* (non-Javadoc)
 	 * @see android.app.Activity#onCreate(android.os.Bundle)
 	 */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
+
 		setContentView(R.layout.configure);
-		
+
 		mBtnOK = (Button) findViewById(R.id.checkrootpwok);
 		mtextPassword = (TextView) findViewById(R.id.rootpw);
 

@@ -30,9 +30,9 @@ public class Kiosk extends Activity implements OnClickListener {
 	private Button mBtnSeven = null;
 	private Button mBtnEight = null;
 	private Button mBtnNine = null;
-	SharedPreferences mPrefs = null;
-	
-	
+	private SharedPreferences mPrefs = null;
+
+
 	/* (non-Javadoc)
 	 * @see android.app.Activity#onCreateOptionsMenu(android.view.Menu)
 	 */
@@ -43,8 +43,8 @@ public class Kiosk extends Activity implements OnClickListener {
 //        return true;
 		return super.onCreateOptionsMenu(menu);
 	}
-	
-	
+
+
 	/* (non-Javadoc)
 	 * @see android.app.Activity#onOptionsItemSelected(android.view.MenuItem)
 	 */
@@ -64,11 +64,11 @@ public class Kiosk extends Activity implements OnClickListener {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
+
 		setContentView(R.layout.main);
 
 		mTest = (Button) findViewById(R.id.btnTest);
-		
+
 		mBtnOne = (Button) findViewById(R.id.btnOne);
 		mBtnTwo = (Button) findViewById(R.id.btnTwo);
 		mBtnThree = (Button) findViewById(R.id.btnThree);
@@ -78,7 +78,7 @@ public class Kiosk extends Activity implements OnClickListener {
 		mBtnSeven = (Button) findViewById(R.id.btnSeven);
 		mBtnEight = (Button) findViewById(R.id.btnEight);
 		mBtnNine = (Button) findViewById(R.id.btnNine);
-		
+
 		mBtnOne.setOnClickListener(this);
 		mBtnTwo.setOnClickListener(this);
 		mBtnThree.setOnClickListener(this);
@@ -88,10 +88,12 @@ public class Kiosk extends Activity implements OnClickListener {
 		mBtnSeven.setOnClickListener(this);
 		mBtnEight.setOnClickListener(this);
 		mBtnNine.setOnClickListener(this);
-		
 
-		
-		// Anonymous clicklistener for the test button
+		mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+
+        // com.google.android.apps.maps
+
+		// Anonymous OnClickListener for the test button
 		if ( mTest != null)
 			mTest.setOnClickListener( new OnClickListener() {
 
@@ -122,23 +124,24 @@ public class Kiosk extends Activity implements OnClickListener {
 
 					//startActivity(googlemaps);
 
-				}					
-			});
+				} // OnClick 
+			}); // Anonymous OnClickListener for the test button
 	}
 
 
 	@Override
 	public void onClick(View v) {
+
+		// Holds the intent to start
 		Intent activityToStart = null;
-		
+		// Holds the name of the app to start or null
+		// eg - com.google.android.apps.maps
 		String prefActivity = null;
-		
+
 		final PackageManager pm = getPackageManager();
 		if (pm == null)
 			return;
-		
-		
-		// com.google.android.apps.maps
+
 		switch (v.getId()) {
 		case R.id.btnOne:
 			prefActivity = mPrefs.getString("one", null); break;
@@ -159,23 +162,21 @@ public class Kiosk extends Activity implements OnClickListener {
 		case R.id.btnNine:
 			prefActivity = mPrefs.getString("nine", null); break;
 		default:
-			Log.d("Error:", "Shouln't happen (:");
+			Log.e("Error:", "Shouln't happen (:");
 	}
 
-		
-		
 		if ( prefActivity == null) {
 			Toast.makeText(this, "Please configure this button", Toast.LENGTH_SHORT).show();
-			//Log.w("test", "blalal");
+			//Log.i("blaa", "blalal");
 			return;
-		} else /*{
-			Log.i("blaa", prefActivity);
-		}*/
-			
-		activityToStart = pm.getLaunchIntentForPackage(prefActivity);
-		
-		startActivity(activityToStart);
-		
+		} else {
+			//Log.i("blaa", prefActivity);
+			Log.i("Starting: ", prefActivity.toString());
+
+			activityToStart = pm.getLaunchIntentForPackage(prefActivity);
+			startActivity(activityToStart);
+		}
+
 	}
 
 
@@ -185,7 +186,7 @@ public class Kiosk extends Activity implements OnClickListener {
 	@Override
 	protected void onResume() {
 		super.onResume();
-		
+
 		mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
 	}
 
@@ -197,7 +198,7 @@ public class Kiosk extends Activity implements OnClickListener {
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		// TODO Auto-generated method stub
 		super.onActivityResult(requestCode, resultCode, data);
-		
+
 		if ( requestCode == 1 && resultCode == 42)
 			this.finish();
 	}
